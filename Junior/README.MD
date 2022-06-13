@@ -1,80 +1,80 @@
 # Junior
 ## Общие вопросы
 
-1. Какие методы HTTP-запросов вы знаете?
-2. Какие версии HTTP-протокола вам известны?
-3. Какие знают коды ответа (состояния) HTTP?
-4. Что такое Cross-Origin Resource Sharing? Как устранить проблемы с CORS?
-5. Что такое cookie?
-6. Каков максимальный размер cookie?
-7. Что означает директива use strict?
-8. Чем JS отличается при работе на front-end и back-end?
-9. Что такое статическая и динамическая типизация?
-10. Как клиент взаимодействует с сервером?
-11. Что такое REST?
-12. Объясните понятие мутабельность/иммутабельность? Какие типы мутабельны и наоборот?
-13. Как искать ошибки в коде? Используете ли дебагер?
-14. Какие известные люди из мира JS знаете?
+1. [Какие методы HTTP-запросов вы знаете?](https://habr.com/ru/post/50147/)
+2. [Какие версии HTTP-протокола вам известны?](https://zametkinapolyah.ru/servera-i-protokoly/standarty-http-protokola-istoriya-razvitiya-http-protokola-versii-http-protokola.html)
+3. [Какие знают коды ответа (состояния) HTTP?](https://developer.mozilla.org/ru/docs/Web/HTTP/Status)
+4. [Что такое Cross-Origin Resource Sharing? Как устранить проблемы с CORS?](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
+5. [Что такое cookie?](https://ssl.com.ua/blog/what-are-cookies/)
+6. [Каков максимальный размер cookie?](https://ask-dev.ru/info/5269/what-is-the-maximum-size-of-a-web-browsers-cookies-key#:~:text=Ключ%20cookie%20(используемый%20для%20идентификации,Согласно%20Microsoft%2C%20его%204096%20байт.)
+7. [Что означает директива use strict?](https://learn.javascript.ru/strict-mode)
+8. [Чем JS отличается при работе на front-end и back-end?](https://timeweb.com/ru/community/articles/frontend-i-backend-razlichiya-osobennosti-i-trebovaniya-k-specialistam)
+9. [Что такое статическая и динамическая типизация?](https://tproger.ru/translations/programming-concepts-type-checking/)
+10. [Как клиент взаимодействует с сервером?](https://developer.mozilla.org/ru/docs/Learn/Server-side/First_steps/Client-Server_overview)
+11. [Что такое REST?](https://systems.education/what-is-rest)
+12. [Объясните понятие мутабельность/иммутабельность? Какие типы мутабельны и наоборот?](https://nuancesprog.ru/p/3348/)
+13. [Как искать ошибки в коде? Используете ли дебагер?](https://learn.javascript.ru/debugging-chrome)
+14. [Какие известные люди из мира JS знаете?](https://techrocks.ru/2018/03/18/influential-javascript-developers/)
 
 ## Ядро JS
 
-15. Какие типы данных существуют в JS?
-16. Как проверить, является ли объект массивом?
-17. Как проверить, является ли окончательным число?
-18. Как проверить, что переменная равна NaN?
-19. Чем отличается поведение isNaN() и Number.isNaN()?
-20. Сравните ключевые слова var, let, const.
-21. Что такое область видимости?
-22. Что такое деструктуризация?
-23. Для чего предназначены методы setTimeout и setInterval?
-24. Сравните подходы к работе с асинхронным кодом: сallbacks vs promises vs async/await.
-25. Можно ли записывать новые свойства/функции в прототипы стандартных классов (Array, Object и т.д.)? Почему нет? В каких случаях это можно делать? Как обезопасить себя, если нужно расширить прототип?
-26. Назовите методы массивов, которые помните и скажите, для чего они нужны.
-27. Какие методы массива знаете? В чем их отличие?
-28. Как работают операторы присвоения/сравнения/строчные/арифметические/битовые и т.п.?
-29. Опишите назначения и принципы работы с коллекциями Map и Set.
-30. Что означает глубокая (deep) и поверхностная (shallow) копия объекта? Как сделать каждый из них?
+15. [Какие типы данных существуют в JS?](https://learn.javascript.ru/types)
+16. [Как проверить, является ли объект массивом?](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+17. [Как проверить, является ли окончательным число?](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/isFinite)
+18. [Как проверить, что переменная равна NaN?](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+19. [Чем отличается поведение isNaN() и Number.isNaN()?](https://www.jsexpert.net/handbook/javascript/chislo-number/isnan/#:~:text=isNaN%20()%20отличается%20от%20глобальной,не%20относится%20к%20типу%20Number.)
+20. [Сравните ключевые слова var, let, const.](https://techrocks.ru/2020/04/07/difference-between-var-let-const/)
+21. [Что такое область видимости?](https://habr.com/ru/post/517338/)
+22. [Что такое деструктуризация?](https://learn.javascript.ru/destructuring)
+23. [Для чего предназначены методы setTimeout и setInterval?](https://learn.javascript.ru/settimeout-setinterval#:~:text=setTimeout%20позволяет%20вызвать%20функцию%20один,вызов%20через%20определённый%20интервал%20времени.)
+24. [Сравните подходы к работе с асинхронным кодом: сallbacks vs promises vs async/await.](https://www.loginradius.com/blog/engineering/callback-vs-promises-vs-async-await/)
+25. [Можно ли записывать новые свойства/функции в прототипы стандартных классов (Array, Object и т.д.)? Почему нет? В каких случаях это можно делать? Как обезопасить себя, если нужно расширить прототип?](https://learn.javascript.ru/native-prototypes)
+26. [Назовите методы массивов, которые помните и скажите, для чего они нужны.](https://habr.com/ru/company/plarium/blog/483958/)
+27. [Какие методы массива знаете? В чем их отличие?](https://habr.com/ru/company/plarium/blog/483958/)
+28. [Как работают операторы присвоения/сравнения/строчные/арифметические/битовые и т.п.?](https://learn.javascript.ru/operators)
+29. [Опишите назначения и принципы работы с коллекциями Map и Set.](https://learn.javascript.ru/map-set)
+30. [Что означает глубокая (deep) и поверхностная (shallow) копия объекта? Как сделать каждый из них?](https://doka.guide/js/shallow-or-deep-clone/)
 
 ## Функции:
-31. Какая разница между декларацией функции (function declaration) и функциональным выражением (function expression)?
-32. Что такое анонимная функция?
-33. Расскажите о стрелковых функциях (arrow function). В чем заключаются отличия стрелковых функций от обычных?
-34. Что такое и для чего используют IIFE (Immediately Invoked Function Expression)?
-35. Что такое hoisting, как он работает для переменных и функций?
-36. Что такое замыкание (closure) и каковы сценарии его использования?
+31. [Какая разница между декларацией функции (function declaration) и функциональным выражением (function expression)?](https://behemothoz.gitbooks.io/js-learn/content/chapter1/raznitsa-mezhdu-function-expression-i-function-declaration.html)
+32. [Что такое анонимная функция?](https://medium.com/devschacht/anonymous-functions-in-javascript-ff6b9ba85de0)
+33. [Расскажите о стрелковых функциях (arrow function). В чем заключаются отличия стрелковых функций от обычных?](https://learn.javascript.ru/arrow-functions)
+34. [Что такое и для чего используют IIFE (Immediately Invoked Function Expression)?](https://jsinthebits.com/iife-in-javascript-what-e9699551/)
+35. [Что такое hoisting, как он работает для переменных и функций?](https://medium.com/@stasonmars/разбираемся-с-поднятием-hoisting-в-javascript-7d2d27bc51f1#:~:text=Поднятие%20или%20hoisting%20—%20это%20механизм,тем%2C%20как%20код%20будет%20выполнен.)
+36. [Что такое замыкание (closure) и каковы сценарии его использования?](https://learn.javascript.ru/closure)
 37. Как вы понимаете замыкание? Что будет выведено в консоли в этом случае?
 
 ![](./images/37_1.PNG)
 
-38. Что такое рекурсия?
-39. Что означает ключевое слово?
-40. Что такое потеря контекста, когда происходит и как его предотвратить?
-41. Методы функций bind/call/apply – зачем и в чем разница?
+38. [Что такое рекурсия?](https://training.by/#!/News/419?lang=ru)
+39. [Что означает ключевое слово?](https://habr.com/ru/company/ruvds/blog/419371/)
+40. [Что такое потеря контекста, когда происходит и как его предотвратить?](https://habr.com/ru/post/421959/)
+41. [Методы функций bind/call/apply – зачем и в чем разница?](https://russianblogs.com/article/42861356858/)
 
 ## Front-end
-42. Что такое DOM?
-43. Сравните атрибуты подключения скрипта async и defer в HTML-документе.
-44. Какая разница между свойствами HTML-элементов innerHTML и innerText?
-45. Опишите процесс всплывания событий в DOM.
-46. ​​Как остановить всплытие (bubbling) события?
-47. Как приостановить дефолтную обработку происшествия?
-48. Чему равна this в обработчике событий (event handler)?
-49. Что такое LocalStorage и SessionStorage? Каков максимальный размер LocalStorage?
-50. Как получить высоту блока? Его положения о границах документа?
-51. Что такое webpack?
-52. Чем отличается dev-сборник от prod?
+42. [Что такое DOM?](https://learn.javascript.ru/dom-nodes)
+43. [Сравните атрибуты подключения скрипта async и defer в HTML-документе.](https://learn.javascript.ru/script-async-defer)
+44. [Какая разница между свойствами HTML-элементов innerHTML и innerText?](https://russianblogs.com/article/3647834426/)
+45. [Опишите процесс всплывания событий в DOM.](https://learn.javascript.ru/bubbling-and-capturing)
+46. ​​[Как остановить всплытие (bubbling) события?](https://learn.javascript.ru/event-bubbling)
+47. [Как приостановить дефолтную обработку события?](https://learn.javascript.ru/default-browser-action)
+48. [Чему равна this в обработчике событий (event handler)?](https://coderlessons.com/articles/veb-razrabotka-articles/javascript-this-i-obrabotchiki-sobytii)
+49. [Что такое LocalStorage и SessionStorage? Каков максимальный размер LocalStorage?](https://learn.javascript.ru/localstorage)
+50. [Как получить высоту блока? Его положения о границах документа?](https://learn.javascript.ru/coordinates)
+51. [Что такое webpack?](https://habr.com/ru/post/514838/)
+52. [Чем отличается dev-сборник от prod?](https://overcoder.net/q/51508/разница-между-производством-и-разработкой-сборки-в-reactjs)
 
 ## Верстка
 
-53. Что такое блочная модель CSS?
-54. Какие способы центрирования блокового контента по горизонтали и вертикали знаете?
-55. Какие подходы в верстке вам известны (float, flex, grid, etc)?
-56. Как сделать приложение responsive?
-57. Каковы принципы семантической верстки?
-58. Зачем нужны префиксы для некоторых CSS-свойств (-webkit-, -moz- и т.д.)?
-59. Как упростить написание кроссбраузерных стилей?
+53. [Что такое блочная модель CSS?](https://tproger.ru/translations/css-box-model/)
+54. [Какие способы центрирования блокового контента по горизонтали и вертикали знаете?](https://learn.javascript.ru/css-center)
+55. [Какие подходы в верстке вам известны (float, flex, grid, etc)?](https://tpverstak.ru/float-flex-grid-css/)
+56. [Как сделать приложение responsive?](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Responsive_Design)
+57. [Каковы принципы семантической верстки?](https://htmlacademy.ru/blog/articles/semantics)
+58. [Зачем нужны префиксы для некоторых CSS-свойств (-webkit-, -moz- и т.д.)?](https://doka.guide/css/vendor-prefixes/#:~:text=Основные%20браузеры%20используют%20следующие%20префиксы,и%20раньше%2C%20на%20движке%20Presto.)
+59. [Как упростить написание кроссбраузерных стилей?](https://www.internet-technologies.ru/articles/aktualnye-sovety-po-kross-brauzernoy-verstke.html)
 60. Практическая задача: прокомментировать и исправить пример плохого CSS или HTML.
-61. Что такое CSS-препроцессоры? С какими работали? Что нового они приносят в стандартный CSS?
+61. [Что такое CSS-препроцессоры? С какими работали? Что нового они приносят в стандартный CSS?](https://developer.mozilla.org/ru/docs/Glossary/CSS_preprocessor)
 
 ## Angular
 
@@ -139,12 +139,12 @@
 
 ## Back-end
 
-117. Что такое REPL?
-118. Что такое streams в Node.js?
-119. Что такое middleware?
-120. Для чего используется функция setImmediate?
-121. Зачем нужен app.param() в express?
-122. Что такое token based authentication?
+117. [Что такое REPL?](https://www.8host.com/blog/chto-takoe-repl-obolochki-i-kak-oni-rabotayut/)
+118. [Что такое streams в Node.js?](https://habr.com/ru/post/479048/)
+119. [Что такое middleware?](https://surf.ru/chto-takoe-middleware/)
+120. [Для чего используется функция setImmediate?](https://learn.javascript.ru/setimmediate#:~:text=Метод%20setImmediate(func),JS.)
+121. [Зачем нужен app.param() в express?](https://www.geeksforgeeks.org/express-js-app-param-function/)
+122. [Что такое token based authentication?](https://frontegg.com/blog/token-based-authentication)
 
 ## Базы данных
 
@@ -158,20 +158,20 @@
 
 ![](./images/129_1.PNG)
 
-130. В проекте потребовалось внести изменения в структуру таблиц, добавить несколько полей и индексы. Как программисты будут делать это на продакшене?
+130. В проекте потребовалось внести изменения в структуру таблиц, добавить несколько полей и индексы. Как программисты будут делать это на продакшене?(С помощью миграций)
 
 ## Инструменты
-131. Каждый раз, когда вы делаете pull, почему-то случается конфликт в последней строке во всех редактируемых файлах. Что происходит?
-132. Что делает команда git fetch?
-133. Какие git hygiene подходы вы знаете?
-134. Что такое CI/CD? Зачем это нужно?
+131. [Каждый раз, когда вы делаете pull, почему-то случается конфликт в последней строке во всех редактируемых файлах. Что происходит?](https://ask-dev.ru/info/12713/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important)
+132. [Что делает команда git fetch?](https://tproger.ru/explain/git-pull-and-git-fetch-whats-the-difference/)
+133. [Какие git hygiene подходы вы знаете?](https://proglib.io/p/git-github-gitflow)
+134. [Что такое CI/CD? Зачем это нужно?](https://habr.com/ru/company/otus/blog/515078/)
 
 ## Практические задания
 
-135. Расскажите, какие способы копирования простого объекта типа obj = {a: 1, b: 2, c: 3}
+135. [Расскажите, какие способы копирования простого объекта типа obj = {a: 1, b: 2, c: 3}](https://medium.com/nuances-of-programming/3-способа-клонирования-объектов-в-javascript-f3de6e54f45b)
 136. Напишите deep clone для объекта.
-137. Назовите разные способы, как поменять местами значения двух переменных.
-138. Менеджер попросил в задаче поменять статусы с "active, inactive" на "active, removed", но в коде фигурируют только цифры и непонятно, какой статус соответствует какой цифре. Как помочь будущим программистам не лезть в документацию по коду? Вопросы задают на конкретном примере с кодом.
+137. [Назовите разные способы, как поменять местами значения двух переменных.](https://habr.com/ru/post/657625/)
+138. Менеджер попросил в задаче поменять статусы с "active, inactive" на "active, removed", но в коде фигурируют только цифры и непонятно, какой статус соответствует какой цифре. Как помочь будущим программистам не лезть в документацию по коду? Вопросы задают на конкретном примере с кодом. (Добавить константы для магических чисел)
 139. Необходимо сделать минипроект – список пользователей с формой создания/редактирования пользователя:
 
     1. Для хранения пользователей используйте Firebase (это бесплатно).
