@@ -6,7 +6,7 @@
 3. [Какие знают коды ответа (состояния) HTTP?](https://developer.mozilla.org/ru/docs/Web/HTTP/Status)
 4. [Что такое Cross-Origin Resource Sharing? Как устранить проблемы с CORS?](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS)
 5. [Что такое cookie?](https://ssl.com.ua/blog/what-are-cookies/)
-6. [Каков максимальный размер cookie?](https://ask-dev.ru/info/5269/what-is-the-maximum-size-of-a-web-browsers-cookies-key#:~:text=Ключ%20cookie%20(используемый%20для%20идентификации,Согласно%20Microsoft%2C%20его%204096%20байт.)
+6. [Каков максимальный размер cookie?](https://ask-dev.ru/info/5269/what-is-the-maximum-size-of-a-web-browsers-cookies-key#:~:text=Ключ%20cookie%20используемый%20для%20идентификации,Согласно%20Microsoft%2C%20его%204096%20байт.)
 7. [Что означает директива use strict?](https://learn.javascript.ru/strict-mode)
 8. [Чем JS отличается при работе на front-end и back-end?](https://timeweb.com/ru/community/articles/frontend-i-backend-razlichiya-osobennosti-i-trebovaniya-k-specialistam)
 9. [Что такое статическая и динамическая типизация?](https://tproger.ru/translations/programming-concepts-type-checking/)
